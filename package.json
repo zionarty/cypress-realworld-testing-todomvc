@@ -5,7 +5,8 @@
   "description": "This repo contains an example TodoMVC React App for the Real World Testing with Cypress Curriculum",
   "scripts": {
     "cypress:open": "cypress open",
-    "start": "http-server -p 8888 -c-1"
+    "start": "http-server -p 8888 -c-1",
+    "test": "test"
   },
   "dependencies": {
     "director": "1.2.8",
@@ -16,7 +17,7 @@
   },
   "devDependencies": {
     "axe-core": "3.5.5",
-    "cypress": "^9.5.4",
+    "cypress": "^9.6.1",
     "cypress-axe": "0.9.1",
     "eslint": "6.8.0",
     "eslint-config-prettier": "^8.5.0",
